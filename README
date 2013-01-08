@@ -1,0 +1,32 @@
+A mastermind like clone for the console, written in 2004
+
+Example play:
+
+Enter a guess of 4 from the characters +*=&^%
+++++
+
+1 Nope: 0 correct       0 color correct
+Enter a guess of 4 from the characters +*=&^%
+****
+
+2 Nope: 0 correct       0 color correct
+Enter a guess of 4 from the characters +*=&^%
+&&&&
+
+3 Nope: 2 correct       1 color correct
+Enter a guess of 4 from the characters +*=&^%
+&=&=
+
+4 Nope: 2 correct       2 color correct
+Enter a guess of 4 from the characters +*=&^%
+
+Enter a valid guess next time!
+Game was &==&
+
+
+
+(I gave up after 4 attempts)
+
+BUILD:
+   
+   make mastermind
